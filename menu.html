@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Menú | Sabor Andino</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    h2 {
+      text-align: center;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #fdf6f0;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #8b4513;
+    }
+
+    .menu {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .plato {
+      background-color: white;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      transition: transform 0.2s;
+    }
+
+    .plato:hover {
+      transform: scale(1.03);
+    }
+
+    .plato img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .plato h2 {
+      margin: 10px;
+      font-size: 1.2em;
+      color: #333;
+    }
+
+    .plato p {
+      margin: 0 10px 10px;
+      font-size: 0.95em;
+      color: #555;
+    }
+  </style>
+  </head>
+<body>
+  <header><h1>Menú</h1></header>
+  <nav>
+    <a href="index.html">Inicio</a>
+    <a href="menu.html">Menú</a>
+    <a href="nosotros.html">Nosotros</a>
+    <a href="galeria.html">Galería</a>
+    <a href="contacto.html">Contacto</a>
+  </nav>
+
+  <h1>Menú Tradicional Ecuatoriano</h1>
+
+  <div class="menu">
+    <div class="plato">
+      <img src="C:\Users\Yolanda\Desktop\JOSE_HUMANE_2025\WEBTECHNOLOGIC\SITIO_WEB\imagenes\HORNADO2.jpg" alt="Hornado">
+      <h2>Hornado</h2>
+      <p>Cerdo asado lentamente, acompañado de mote y llapingachos.</p>
+    </div>
+
+    <div class="plato">
+      <img src="C:\Users\Yolanda\Desktop\JOSE_HUMANE_2025\WEBTECHNOLOGIC\SITIO_WEB\imagenes\CEVICHE1.jpg" alt="Ceviche de camarón">
+      <h2>Ceviche de Camarón</h2>
+      <p>Camarones marinados en jugo de limón con tomate, cebolla y cilantro.</p>
+    </div>
+
+    <div class="plato">
+      <img src="C:\Users\Yolanda\Desktop\JOSE_HUMANE_2025\WEBTECHNOLOGIC\SITIO_WEB\imagenes\menestra.jpg" alt="Menestra con carne">
+      <h2>Menestra con Carne</h2>
+      <p>Tradicional guiso de lentejas servido con arroz y carne a la parrilla.</p>
+    </div>
+
+    <div class="plato">
+      <img src="C:\Users\Yolanda\Desktop\JOSE_HUMANE_2025\WEBTECHNOLOGIC\SITIO_WEB\imagenes\fanesca.jpg" alt="Fanesca">
+      <h2>Fanesca</h2>
+      <p>Sopa típica de Semana Santa con granos, bacalao y huevo duro.</p>
+    </div>
+
+    <div class="plato">
+        <img src="C:\Users\Yolanda\Desktop\JOSE_HUMANE_2025\WEBTECHNOLOGIC\SITIO_WEB\imagenes\llapingacho.jpg" alt="Llapingacho">
+        <h2>Llapingacho</h2>
+        <p>Tortillas de papa cocida y machacada, con queso, achiote y cebolla, fritas hasta quedar doradas y crujientes.</p>
+      </div>
+
+      <div class="plato">
+        <img src="C:\Users\Yolanda\Desktop\JOSE_HUMANE_2025\WEBTECHNOLOGIC\SITIO_WEB\imagenes\ENCEBOLLADO2.jpg" alt="Encebollado">
+        <h2>Encebollado</h2>
+        <p>Sopa de pescado que contiene albacora, yuca, tomate, cebolla colorada, cilantro, ají en polvo, comino y otras especias.</p>
+      </div>  
+  </div>
+
+  <footer><p>&copy; 2025 Sabor Andino</p></footer>
+</body>
+</html>
